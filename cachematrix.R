@@ -2,7 +2,7 @@
 
 ## reference : https://stackoverflow.com/questions/24904683/caching-the-mean-of-a-vector-in-r
 
-## create a special matrix object that can cache its inverse 
+## create a special matrix object that can cache its inverse  
 
 makeCacheMatrix <- function(mat = matrix()) {
   inv <- NULL
